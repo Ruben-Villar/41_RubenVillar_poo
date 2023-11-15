@@ -15,7 +15,12 @@ public class S05_41 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        calculadora_41 calculadora = new calculadora_41();
+        calculadora.preguntar();
+        calculadora.sumar();
+        calculadora.resta();
+        calculadora.multiplicar();
+
     }
     
 }
